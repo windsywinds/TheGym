@@ -19,7 +19,7 @@ function Plans({refPlan}) {
                 <p className="text-6xl font-bold pb-5">$25</p>
                 <p className="pb-4">5 Visits per month</p>
                 <p className="pb-4">Up to 1 hours</p>
-                <p className="pb-4">words3</p>
+                <p className="pb-4">1x group class per month</p>
                 <button className="bg-orange-500 py-4 w-full">Join Now</button>
             </div>
 
@@ -29,7 +29,7 @@ function Plans({refPlan}) {
                 <p className="text-6xl font-bold pb-5">$35</p>
                 <p className="pb-4">10 Visits per month</p>
                 <p className="pb-4">Up to 2 hours</p>
-                <p className="pb-4">words3</p>
+                <p className="pb-4">Coaching 1x per fortnight</p>
                 <button className="bg-white text-black py-4 w-full">Join Now</button>
             </div>
             </div>
@@ -39,7 +39,7 @@ function Plans({refPlan}) {
                 <p className="text-6xl font-bold pb-5">$50</p>
                 <p className="pb-4">Unlimited vists</p>
                 <p className="pb-4">No time limits</p>
-                <p className="pb-4">words3</p>
+                <p className="pb-4">Coaching 1x per week</p>
                 <button className="bg-orange-500 py-4 w-full">Join Now</button>
             </div>
 
