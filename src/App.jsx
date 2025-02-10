@@ -33,19 +33,20 @@ function App() {
   return (
 
       <div className="h-full w-screen flex flex-col items-center bg-[#303034] bg-repeat text-white " style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <nav className="flex flex-row w-full justify-between pt-6 pr-6">
+        <nav className="flex flex-col sm:flex-row w-full justify-between pt-6 pr-6">
           
           <div className="flex flex-row items-center justify-start space-x-4 ml-4 ">
             <div className="w-32 drop-shadow-2xl shadow-black"><img src={logo}/> 
             </div>
             <p className="font-outline-2 text-4xl sm:text-6xl font-bold">The <i className="text-[#eb3118] ">G</i>ym</p>
-            </div>
+          </div>
 
-          <div className="flex flex-row items-center justify-end gap-8">
-          <button onClick={() => scrollToPrograms()}>Programs</button>
+          <div className="flex flex-row items-center justify-start gap-8 pl-4">
+            <button onClick={() => scrollToPrograms()}>Programs</button>
             <button onClick={() => scrollToPlans()}>Plans</button>
-          <button onClick={() => scrollToTestimonals()}>Testimonials</button>
-          <button className="bg-white text-black px-2 py-2 font-bold ">Join Now</button></div>
+            <button onClick={() => scrollToTestimonals()}>Testimonials</button>
+            <button className="bg-white text-black px-2 py-2 font-bold ">Join Now</button>
+          </div>
         </nav>
         
       
